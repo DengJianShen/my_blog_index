@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 296082 */
+  src: url('//at.alicdn.com/t/font_erkl49dzt98jjor.eot');
+  src: url('//at.alicdn.com/t/font_erkl49dzt98jjor.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_erkl49dzt98jjor.woff') format('woff'),
+  url('//at.alicdn.com/t/font_erkl49dzt98jjor.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_erkl49dzt98jjor.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont";
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  background-color: #f6f6f6;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.container .content-wrap,
+.container .sidebar-wrap {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block;
+  float: left;
+}
+
+.container .content-wrap {
+  width: 66.66666667%;
+}
+.container .content-wrap h1{
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+.container .sidebar-wrap {
+  width: 33.33333333%;
+  padding-left: 0;
+}
+
+.container {
+  max-width: 1200px;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+}
