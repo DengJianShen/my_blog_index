@@ -37,6 +37,17 @@
         this.getArticleComment();
         this.readAdd();
     },
+    watch: {
+      '$route': function (to, from) {
+        if (to.fullPath.indexOf('/article') < 0) {
+          return
+        } else {
+          this.getEdit();
+          this.getArticleComment();
+          this.readAdd();
+        }
+      }
+    },
     methods: {
       // 获取最新评论
       getComment() {
